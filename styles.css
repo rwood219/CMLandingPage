@@ -1,0 +1,21 @@
+
+body .main-container{
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+
+
+  .carousel-item img {
+    height: 600px; /* Set a fixed height */
+    width: 100%; /* Ensure the width is responsive */
+    object-fit: cover; /* Maintain aspect ratio while covering the container */
+  }
+
+  @media (max-width: 767px) {
+    .carousel-item img {
+      height: 300px; /* Adjust height for smaller screens */
+    }
+  }

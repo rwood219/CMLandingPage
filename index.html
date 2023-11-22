@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/all.min.css"
+      integrity="sha384-..."
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+      integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>CM WoodCraft</title>
+  </head>
+  <body>
+    <div
+      class="main-container"
+      role="main"
+      style="background-color: rgb(0, 0, 0); height: 100%; color: white"
+    >
+      <!--NAV CONTAINER-->
+      <div class="container-fluid">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light fixed-top"
+          style="border-bottom: 5px solid black"
+        >
+          <a
+            class="navbar-brand"
+            href="#"
+            style="padding-left: 10px; font-family: 'Montserrat', sans-serif"
+            >CM WoodCraft</a
+          >
+          <!-- Right-aligned images -->
+          <div class="d-flex ms-auto">
+            <a href="tel:+16096669131">
+              <img
+                src="/assets/logos/2.svg"
+                alt="First Image"
+                style="max-height: 60px"
+            /></a>
+          </div>
+        </nav>
+      </div>
+
+      <!--FIRST JUMBOTRON-->
+      <div class="jumbotron jumbotron-fluid" style="margin-top: 60px">
+        <div
+          class="container"
+          style="padding: 10px 0px 10px 0px; text-align: center"
+        >
+          <img
+            src="./assets/logos/Brown Modern Wood Logo.svg"
+            alt=""
+            style="max-height: 300px"
+          />
+          <p class="lead p-3">
+            Explore the beauty of bespoke woodworking at CM WoodCraft. Discover
+            unique live edge furniture, on-site milling services, and exquisite
+            live edge lumber. Elevate your space with our craftsmanship and the
+            timeless allure of natural wood.
+          </p>
+        </div>
+      </div>
+
+      <!--MAIN IMAGE SLIDER-->
+      <div
+        id="main-image-slider"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="/assets/inventory/GK-241.webp"
+              class="d-block w-100"
+              alt="..."
+              style="max-height: 600px; max-width: auto"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/inventory/table.jpg"
+              class="d-block w-100"
+              alt="..."
+              style="max-height: 600px; max-width: auto"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="/assets/inventory/milling.jpg"
+              class="d-block w-100"
+              alt="..."
+              style="max-height: 600px; max-width: auto"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#main-image-slider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#main-image-slider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!--SECOND JUMBOTRON-->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container" style="padding: 10px 10px; text-align: center">
+          <h1 class="display-5 mb-4" style="text-decoration: underline">
+            Crafting Timeless Elegance with Nature
+          </h1>
+          <p class="lead">
+            Our skilled craftsmen merge the raw beauty of nature with modern
+            design, offering you a unique blend of functionality and elegance.
+          </p>
+          <div class="divider-container container-fluid justify-content-center">
+            <div class="border mx-auto" style="max-width: 50%"></div>
+          </div>
+          <p class="lead">
+            On-site milling services, bringing precision and expertise to your
+            location. Elevate your projects with top-notch craftsmanship
+            delivered straight to your doorstep.
+          </p>
+          <div class="divider-container container-fluid justify-content-center">
+            <div class="border mx-auto" style="max-width: 50%"></div>
+          </div>
+          <p class="lead">
+            Connect with us today to discuss your vision. Call
+            <strong>609-666-9131</strong> or
+            <a href="mailto:robertwood2191@gmail.com">contact us online</a> for
+            a personalized consultation and discover the possibilities.
+          </p>
+        </div>
+      </div>
+
+      <!--CARD GROUP -->
+      <div class="card-group" style="padding: 10px 10px 70px 10px">
+        <div class="card text-center">
+          <img
+            class="card-img-top object-fit-fill"
+            src="/assets/inventory/river-table-dark.webp"
+            alt="Card image cap"
+            style="height: 300px; width: 100%; object-fit: cover"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Furniture</h5>
+            <p class="card-text">
+              Discover the artistry of our custom-made epoxy river tables and
+              furniture, meticulously crafted from stunning live edge wood. Each
+              piece is a unique blend of nature and modern design, seamlessly
+              merging functionality with elegance. Elevate your space with our
+              handcrafted creations, where craftsmanship meets innovation, and
+              bring the beauty of nature into your home or office.
+            </p>
+          </div>
+        </div>
+
+        <div class="card text-center">
+          <img
+            class="card-img-top object-fit-fill"
+            src="/assets/inventory/milling.jpg"
+            alt="Card image cap"
+            style="height: 300px; width: 100%; object-fit: cover"
+          />
+          <div class="card-body">
+            <h5 class="card-title">On Site Services</h5>
+            <p class="card-text">
+              Experience the convenience of on-site milling services tailored to
+              your woodworking needs. Our skilled professionals bring precision
+              and expertise to your location, transforming raw timber into
+              customized, high-quality lumber. Elevate your projects with the
+              seamless integration of top-notch craftsmanship and the
+              convenience of having bespoke wood solutions delivered straight to
+              your doorstep.
+            </p>
+          </div>
+        </div>
+        <div class="card text-center">
+          <img
+            class="card-img-top"
+            src="/assets/inventory/wood-slabs-title.jpg"
+            alt="Card image cap"
+            style="height: 300px; width: 100%; object-fit: cover"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Live Edge Stock</h5>
+            <p class="card-text">
+              Sourced from premium hardwoods, each slab showcases the natural
+              beauty of the wood, creating one-of-a-kind pieces for your unique
+              vision. Bring warmth, character, and a touch of nature into your
+              space with our hand-selected, carefully crafted live edge slabs.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--BOTTOM STICKY NAV-- SOCIAL LINK CONTAINER-->
+      <div
+        class="bottom-nav fixed-bottom"
+        style="background-color: rgb(192, 187, 187)"
+      >
+        <ul class="nav justify-content-evenly" style="padding: 0; margin: 0">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              aria-current="page"
+              href="https://www.facebook.com/cmwoodcraftnj"
+              ><img
+                src="./assets/logos/facebook.svg"
+                alt="#"
+                height="40px"
+                width="40px"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/CMwoodcraftnj/">
+              <img
+                src="./assets/logos/instagram.svg"
+                alt="#"
+                height="40px"
+                width="40px"
+              />
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="mailto:robertwood2191@gmail.com"
+              ><img
+                src="./assets/logos/envelope-solid.svg"
+                alt="#"
+                height="40px"
+                width="40px"
+            /></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tel:+16096669131">
+              <img
+                src="./assets/logos/phone-solid.svg"
+                alt="#"
+                height="40px"
+                width="40px"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!--SCRIPTS BOOTSTAP SCRIPTS--JQUERY--POPPER JS-->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="/main.js"></script>
+  </body>
+</html>
